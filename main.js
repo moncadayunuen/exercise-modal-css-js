@@ -3,17 +3,17 @@ const modal = () => {
   let modal = document.querySelector(".modal");
   let closeBtn = document.querySelector(".close-btn");
 
-  modalBtn.onclick = function(){
+  modalBtn.addEventListener('click', () => {
     modal.style.display = "block";
-  }
-  closeBtn.onclick = function(){
+  });
+  closeBtn.addEventListener('click', () => {
     modal.style.display = "none";
-  }
-  window.onclick = function(event){
+  });
+  window.addEventListener('click', function(event) {
     if(event.target == modal){
       modal.style.display = "none";
     }
-  }
+  });
 }
 
 modal()
