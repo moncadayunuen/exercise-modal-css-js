@@ -1,0 +1,16 @@
+{
+  "name": "filter_divs",
+  "version": "1.0.0",
+  "description": "exercise of how to filter elements in html with JS",
+  "main": "main.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \"*.css, *.html, *.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "bulma": "^0.7.5"
+  }
+}
